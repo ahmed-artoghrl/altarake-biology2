@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>كورسات الأحياء - منصة الأتراك</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      text-align: center;
+      padding: 50px;
+      direction: rtl;
+    }
+    h2 {
+      color: #2c3e50;
+    }
+    .box {
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 30px;
+      max-width: 500px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    a.button {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: gold;
+      color: #000;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a.button:hover {
+      background-color: darkorange;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>📚 كورسات الأحياء</h2>
+    <p>💰 الاشتراك الشهري: <strong>200 جنيه</strong></p>
+    <p>📞 الدفع على فودافون كاش: <strong>01009246684</strong></p>
+
+    <a href="videos.html" class="button">🎓 دخول الفيديوهات</a>
+    <a href="https://wa.me/201009246684" class="button" target="_blank">💬 تواصل واتساب</a>
+    <a href="#" onclick="logout()" class="button">🚪 تسجيل الخروج</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
